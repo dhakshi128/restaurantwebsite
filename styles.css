@@ -1,0 +1,218 @@
+
+#rest_name{
+	float: left;
+	margin-left:15px;
+	color:white;
+	font-family: 'Tilt Prism', cursive;	
+}
+/*nav-bar*/
+.banner{
+	background-color:black;
+	margin:0px;
+	width:100%;
+	height:75px;
+}
+.nav_bar{
+	float:right;
+	margin:0;
+	padding:10px;
+	border:20px;
+}
+.clearfix{
+	clear:both;
+}
+
+.nav_bar>ul{
+	list-style-type: none;
+	border:0px;
+	padding:0px;
+}
+.nav_bar>ul>li{
+	display: inline-block;
+	margin:0px;
+	border:0px;
+	padding:0px;
+
+}
+.nav_bar>ul>li>a{
+	text-decoration: none;
+	color:white;
+	display:block;
+	margin:0px;
+	border:0px;
+	padding:15px;
+
+}
+.nav_bar>ul>li>a:hover{
+	background-color:orange;
+}
+
+/*content*/
+.content{
+	width: 750px;
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+#Welcome{
+    margin:50px;
+    padding:15px;
+	font-size:xx-large;
+	font-family: 'IM Fell DW Pica', serif;
+	text-align: center;
+	color:white;
+
+}
+#subtitle,#description{
+	text-align:center;
+	font-family: 'Rouge Script', cursive;
+	color:white;
+	margin:50px;
+	padding:15px;
+}
+.content1{
+	width: 750px;
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px;
+    margin-bottom:15px;
+
+}
+
+/*button*/
+.buttons{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+
+}
+.order-now,.reserve{
+	height: 40px;
+    width: 171px;
+    margin: 21px;
+    background-color: red;
+    color:white;
+    box-shadow:2px 2px 12px white;
+    font-weight:bolder;
+    font-size:1.15em;
+}
+.order-now:hover{
+	background-color: teal;
+}
+.reserve:hover{
+	background-color:cyan;
+}
+.buttons>button>a{
+	text-decoration: none;
+	color:white;
+}
+/*FOOTER*/
+.footer{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    background-color: black;
+    color:white;
+}
+
+/*ABOUT*/
+.about{
+	font-family: 'IM Fell DW Pica', serif;
+	font-size: 1.15em;
+}
+.image1{
+	width: 1457px;
+    height: 456px;
+}
+/*MENU*/
+.Chinese,.Indian{
+	font-family: 'IM Fell DW Pica', serif;
+	
+}
+.nav_bar1{
+	float:left;
+	margin:0;
+	padding:10px;
+	border:20px;
+	background-color: black;
+	color:whitesmoke;
+}
+/*Contact*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram{
+	background:deeppink;
+	color:white;
+}
+.fa-youtube{
+	background:red;
+	color:white;
+}
+.contactdetails{
+	width: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.Address1{
+	width: 750px;
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-family: 'IM Fell DW Pica', serif;
+    text-align: center;
+
+}
+
+/*ORDER NOW*/
+.order{
+	color:black;
+	font-family: 'IM Fell DW Pica', serif;
+	text-align: center;
+}
+.formorder{
+	color:black;
+	font-family: 'IM Fell DW Pica', serif;
+	text-align: left;
+	line-height: 1.15em;
+	margin-left:10px;
+
+}
+.submit{
+	margin-top:15px;
+	margin-left: 10px;
+	border:2px solid black;
+	background-color: red;
+	color:whitesmoke;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.15em;
+}
